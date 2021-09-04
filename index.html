@@ -8,49 +8,64 @@
     <title>Shoplocally</title>
 </head>
 <body>
-    <nav>
-        <h1>Shoplocally</h1>
+    <nav class="flex">
+        <img id="nav-logo" src="logo-white.svg" alt="shoplocally-logo">
     </nav>
     <header>
-        <div>
-            <h2>Shoplocally</h2>
-            <h3>Un site pour tous vos achats locaux</h3>
-        </div>
-        <div>
-            <img src="https://via.placeholder.com/350" alt="">
+        <div class="wrapper flex">
+            <div class="headline flex">
+                <h2>Shop<span>locally</span></h2>
+                <h3>Un site pour tous vos achats locaux</h3>
+            </div>
+            <div>
+                <img id="header-img" src="organicshape3.png" alt="">
+            </div>
         </div>
     </header>
-    <div>
-        <div>
-            <img src="https://via.placeholder.com/150" alt="">
-            <h4>Lorem ipsum</h4>
-            <p>Lorem gwagwa ipsum</p>
-        </div>
-        <div>
-            <img src="https://via.placeholder.com/150" alt="">
-            <h4>Lorem ipsum</h4>
-            <p>Lorem gwagwa ipsum</p>
-        </div>
-        <div>
-            <img src="https://via.placeholder.com/150" alt="">
-            <h4>Lorem ipsum</h4>
-            <p>Lorem gwagwa ipsum</p>
+    <div id="key-points">
+        <div class="points wrapper flex">
+            <div class="point">
+                <div class="svg-container">
+                    <img src="boxes.svg" alt="">
+                </div>
+                <h4>Soutenez le commerce local</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="point">
+                <div class="svg-container">
+                    <img src="arrow.svg" alt="">
+                </div>
+                <h4>Lorem ipsum</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="point">
+                <div class="svg-container">
+                    <img src="card.svg" alt="">
+                </div>
+                <h4>Paiements sécurisés</h4>
+                <p>
+                    Payez rapidement et de manière sécurisée en ligne,
+                    ou lors du retrait en magasin
+                </p>
+            </div>
         </div>
     </div>
-    <main>
+    <main class="wrapper">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus justo ac consectetur molestie.
             In facilisis, quam ut euismod iaculis, justo arcu mollis odio, vel auctor massa urna non mauris.
             Integer sed bibendum eros.
         </p>
     </main>
-    <div>
+    <div class="interest wrapper">
         <p>Intéressé(e) par le projet ?<br/>Soyez tenu(e) au courant de son avancement par email</p>
     </div>
-    <div>
-        <form action="">
-            <input type="email" name="" id="">
-            <input type="submit" value="Valider">
+    <div class="wrapper">
+        <form class="flex" action="https://formsubmit.co/wautiermichael@gmail.com" method="POST">
+            <input class="custom-input" type="email" name="email" placeholder="Votre adresse e-mail">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+            <input class="custom-button" type="submit" value="Valider">
         </form>
     </div>
 </body>
