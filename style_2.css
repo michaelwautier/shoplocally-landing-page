@@ -13,14 +13,8 @@ body {
     box-sizing: border-box;
 }
 
-h2 {
+h1, h2 {
     font-family: 'Poppins', sans-serif;
-}
-
-/* NAVBAR */
-
-nav, .other-versions {
-    background-color: var(--main-color);
 }
 
 /* FORM */
