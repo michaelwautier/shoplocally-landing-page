@@ -17,6 +17,10 @@ h1, h2 {
     font-family: 'Poppins', sans-serif;
 }
 
+b {
+    color: var(--second-color)
+}
+
 /* FORM */
 
 .custom-button {
